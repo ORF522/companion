@@ -4,7 +4,7 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/orf522/companion/blob/main)
 [![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/ORF522/companion/tree/main/)
 
-Supporting material for [Princeton ORF307 course: Optimization](https://stellato.io/teaching/orf522)
+Supporting material for [Princeton ORF522 course: Linear and Nonlinear Optimization](https://stellato.io/teaching/orf522)
 
 
 ## Troubleshooting
