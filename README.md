@@ -15,3 +15,6 @@ Supporting material for [Princeton ORF522 course: Linear and Nonlinear Optimizat
   ```python
   # "text.usetex": True,
   ```
+
+- `AttributeError: 'Axes3D' object has no property 'auto_add_to_figure'` when generating the simplex 3D plots.
+  You most-likely have an older version of `matplotlib` installed. You can just create a new cell and run `!pip install -U matplotlib` (remember to restart your runtime/kernel to activate the changes).
