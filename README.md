@@ -8,26 +8,20 @@ Supporting material for [Princeton ORF522 course: Linear and Nonlinear Optimizat
 
    [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/orf522/companion)
 
-2. In the page that opens, use the green **<> Code** button → **Codespaces** tab →  
-   click **“Create codespace on main”**.
-
-3. GitHub will create a Codespace. By default, it opens in **VS Code in the browser**.
+2. GitHub will create a Codespace. By default, it opens in **VS Code in the browser**.
    - You can **ignore VS Code and close that tab** if you like.
    - To work in JupyterLab, go back to the GitHub repo page, open the green **<> Code** button → **Codespaces** tab, click the `…` menu next to your running (active) codespace, and choose **“Open in JupyterLab”**
 
    > If you prefer, you _can_ stay in VS Code and run notebooks there — both options work.
 
-4. ⚠️ **Save your work locally**: Codespaces are temporary.
+3. ⚠️ **Save your work locally**: Codespaces are temporary.
    - They stop after ~30 minutes of inactivity and may be auto-deleted after ~30 days.
    - Before you finish, download your files from JupyterLab:  
      Right-click a file → **Download**.
-   - To save everything at once:
-     ```bash
-     zip -r work.zip .
-     ```
-     then download `work.zip`.
 
-✅ You now have a full JupyterLab environment with all Python + LaTeX packages preinstalled — no setup needed.
+4. 📄 **Exporting to PDF**:
+   - In JupyterLab, open your notebook, go to the top menu → **File → Save and Export Notebook As → PDF**.
+   - This generates a PDF version of your notebook that you can download.
 
 ## Troubleshooting
 
