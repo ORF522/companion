@@ -2,41 +2,32 @@
 
 Supporting material for [Princeton ORF522 course: Linear and Nonlinear Optimization](https://stellato.io/teaching/orf522)
 
-## 🚀 Run in GitHub Codespaces
+## 🚀 Run in GitHub Codespaces (JupyterLab in browser)
 
-You can launch this environment directly in your browser with GitHub Codespaces:
+1. Click this badge to start a Codespace:
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/orf522/companion)
+   [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/orf522/companion)
 
-### How to use
+2. In the page that opens, use the green **<> Code** button → **Codespaces** tab →  
+   click **“Create codespace on main”**.
 
-1. Click the badge above (requires a GitHub account).
-2. Wait a couple of minutes while the Codespace starts.
-3. In the Codespaces menu, go to **… → Open in → JupyterLab**.
-4. You’ll be in a full JupyterLab environment with all the optimization and LaTeX packages preinstalled.
-5. Work in the browser; your files persist in the Codespace.  
-   Save to GitHub if you want permanent storage.
+3. GitHub will create a Codespace. By default, it opens in **VS Code in the browser**.
+   - You can **ignore VS Code and close that tab** if you like.
+   - To work in JupyterLab, go back to the GitHub repo page, open the green **<> Code** button → **Codespaces** tab, click the `…` menu next to your running (active) codespace, and choose **“Open in JupyterLab”**
 
-## 💾 Save your work locally (important!)
+   > If you prefer, you _can_ stay in VS Code and run notebooks there — both options work.
 
-GitHub Codespaces are **temporary** workspaces:
+4. ⚠️ **Save your work locally**: Codespaces are temporary.
+   - They stop after ~30 minutes of inactivity and may be auto-deleted after ~30 days.
+   - Before you finish, download your files from JupyterLab:  
+     Right-click a file → **Download**.
+   - To save everything at once:
+     ```bash
+     zip -r work.zip .
+     ```
+     then download `work.zip`.
 
-- A codespace **stops** after ~30 minutes of inactivity (you can change this in your own GitHub settings). [GitHub Docs](https://docs.github.com/en/codespaces/setting-your-user-preferences/setting-your-timeout-period-for-github-codespaces)
-- **Stopped** codespaces are **automatically deleted after up to 30 days** of inactivity (that retention can be shorter if you’ve set it in your GitHub account). [GitHub Docs](https://docs.github.com/en/codespaces/about-codespaces/understanding-the-codespace-lifecycle)
-
-➡️ **Before you close the browser or step away**, download your files to your computer:
-
-**From JupyterLab**
-
-1. Right-click a file/folder in the left sidebar → **Download**.
-2. For many files at once, you can zip a folder in the terminal and download the zip:
-   ```bash
-   zip -r work.zip .
-   ```
-
-Then right-click work.zip → Download.
-
-Tip: Codespaces persist between sessions until they’re deleted by the retention policy, but do not rely on them for long-term storage. Always keep a local copy or push to a repo you own.
+✅ You now have a full JupyterLab environment with all Python + LaTeX packages preinstalled — no setup needed.
 
 ## Troubleshooting
 
