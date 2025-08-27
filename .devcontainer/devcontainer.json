@@ -1,8 +1,8 @@
 {
   "name": "Optimization Container",
-  "image": "bstellato/optimization-docker:main" // https://github.com/bstellato/optimization-docker,
+  "image": "bstellato/optimization-docker:main", // https://github.com/bstellato/optimization-docker
   "remoteUser": "jovyan",
   "github.copilot.enable": {
-   "*": false
+    "*": false
   }
 }
